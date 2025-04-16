@@ -12,6 +12,8 @@ public class WeekOne {
         System.out.println(var5);
         String var6="Avengers 'Iron Man' Tony Stark";
         System.out.println(var6);
+        // This is the description about string datatypes
+
         String a="RAM";
         System.out.println(a);
     }
