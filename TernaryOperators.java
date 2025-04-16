@@ -11,6 +11,8 @@ public class TernaryOperators {
         System.out.println(result);
 
         sc.close();
+
+        // The ternary operators are used during conditions to validate whether a given condition is true or false
     }
     
 }
