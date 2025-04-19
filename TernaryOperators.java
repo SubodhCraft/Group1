@@ -7,7 +7,7 @@ public class TernaryOperators {
         int age=sc.nextInt();
 
         String result = (age<=18) ? "You are not eligible to vote" :
-        "You are eligible";
+        "You are eligible to vote";
         System.out.println(result);
 
         sc.close();
