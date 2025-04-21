@@ -11,18 +11,7 @@
 // }
 
 // public class Week2Task {
-
-//      public static void main(String[] args) {
-//         double base = 10;
-//         double height = 5;
-//         double areaTriangle = (base * height)/2;
-//         System.out.println("Area of triangle: " + areaTriangle);
-//     }
-// }
-
-// public class Week2Task {
-
-//     public static void main(String[] args) {
+///     public static void main(String[] args) {
 //         double base = 10;
 //         double height =5;
 //         double areaTriangle = (base * height)/2;
@@ -58,13 +47,13 @@
 //     }
 // }
 
+// 5.
 // import java.util.Scanner;
 
 // public class Week2Task {
 
 //     public static void main(String[] args) {
-//         Scanner sc = new Scanner(System.in);
-//         System.out.println("Enter a number: ");
+//         
 //         int a = sc.nextInt();
 //         System.out.println("Enter another number: ");
 //         int b = sc.nextInt();
@@ -74,6 +63,7 @@
 //     }
 // }
 
+// 6.
 // import java.util.Scanner;
 
 // public class Week2Task {
@@ -94,6 +84,7 @@
 //     }
 // }
 
+// 7.
 // import java.util.Scanner;
 
 // public class Week2Task {
@@ -112,6 +103,7 @@
 //     }
 // }
 
+// 8.
 // import java.util.Scanner;
 
 // public class Week2Task {
@@ -159,6 +151,7 @@
 //     }
 // }
 
+// 9.
 // import java.util.Scanner;
 
 // public class Week2Task {
@@ -198,7 +191,7 @@ public class Week2Task {
         double percentage = (totalMarks/400)*100;
 
         System.out.println("Total marks: "+totalMarks);
-        System.out.printf("Percentage: ", percentage);
+        System.out.printf("Percentage: %.2f%%%n", percentage);
 
         String result = (percentage >=70) ? "First class":
                         (percentage >59) ?"Upper Second class":
